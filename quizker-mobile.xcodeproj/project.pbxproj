@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3D0EBC2AF6EC22009B0C46 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5D3D0EBB2AF6EC22009B0C46 /* Alamofire */; };
+		5DF573BD2AF19F57001513E9 /* quizker_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF573BC2AF19F57001513E9 /* quizker_mobileApp.swift */; };
+		5DF573BF2AF19F57001513E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF573BE2AF19F57001513E9 /* ContentView.swift */; };
+		5DF573C12AF19F5A001513E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF573C02AF19F5A001513E9 /* Assets.xcassets */; };
+		5DF573C42AF19F5A001513E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF573C32AF19F5A001513E9 /* Preview Assets.xcassets */; };
+		5DF573CE2AF19F5A001513E9 /* quizker_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF573CD2AF19F5A001513E9 /* quizker_mobileTests.swift */; };
+		5DF573D82AF19F5A001513E9 /* quizker_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF573D72AF19F5A001513E9 /* quizker_mobileUITests.swift */; };
+		5DF573DA2AF19F5A001513E9 /* quizker_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF573D92AF19F5A001513E9 /* quizker_mobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF573CA2AF19F5A001513E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF573B12AF19F56001513E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF573B82AF19F57001513E9;
+			remoteInfo = "quizker-mobile";
+		};
+		5DF573D42AF19F5A001513E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF573B12AF19F56001513E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF573B82AF19F57001513E9;
+			remoteInfo = "quizker-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DF573B92AF19F57001513E9 /* quizker-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quizker-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF573BC2AF19F57001513E9 /* quizker_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizker_mobileApp.swift; sourceTree = "<group>"; };
+		5DF573BE2AF19F57001513E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DF573C02AF19F5A001513E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF573C32AF19F5A001513E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DF573C92AF19F5A001513E9 /* quizker-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quizker-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF573CD2AF19F5A001513E9 /* quizker_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizker_mobileTests.swift; sourceTree = "<group>"; };
+		5DF573D32AF19F5A001513E9 /* quizker-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quizker-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF573D72AF19F5A001513E9 /* quizker_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizker_mobileUITests.swift; sourceTree = "<group>"; };
+		5DF573D92AF19F5A001513E9 /* quizker_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizker_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF573B62AF19F57001513E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3D0EBC2AF6EC22009B0C46 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF573C62AF19F5A001513E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF573D02AF19F5A001513E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF573B02AF19F56001513E9 = {
+			isa = PBXGroup;
+			children = (
+				5DF573BB2AF19F57001513E9 /* quizker-mobile */,
+				5DF573CC2AF19F5A001513E9 /* quizker-mobileTests */,
+				5DF573D62AF19F5A001513E9 /* quizker-mobileUITests */,
+				5DF573BA2AF19F57001513E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF573BA2AF19F57001513E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF573B92AF19F57001513E9 /* quizker-mobile.app */,
+				5DF573C92AF19F5A001513E9 /* quizker-mobileTests.xctest */,
+				5DF573D32AF19F5A001513E9 /* quizker-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF573BB2AF19F57001513E9 /* quizker-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				5DF573BC2AF19F57001513E9 /* quizker_mobileApp.swift */,
+				5DF573BE2AF19F57001513E9 /* ContentView.swift */,
+				5DF573C02AF19F5A001513E9 /* Assets.xcassets */,
+				5DF573C22AF19F5A001513E9 /* Preview Content */,
+			);
+			path = "quizker-mobile";
+			sourceTree = "<group>";
+		};
+		5DF573C22AF19F5A001513E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DF573C32AF19F5A001513E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DF573CC2AF19F5A001513E9 /* quizker-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF573CD2AF19F5A001513E9 /* quizker_mobileTests.swift */,
+			);
+			path = "quizker-mobileTests";
+			sourceTree = "<group>";
+		};
+		5DF573D62AF19F5A001513E9 /* quizker-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF573D72AF19F5A001513E9 /* quizker_mobileUITests.swift */,
+				5DF573D92AF19F5A001513E9 /* quizker_mobileUITestsLaunchTests.swift */,
+			);
+			path = "quizker-mobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF573B82AF19F57001513E9 /* quizker-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF573DD2AF19F5A001513E9 /* Build configuration list for PBXNativeTarget "quizker-mobile" */;
+			buildPhases = (
+				5DF573B52AF19F57001513E9 /* Sources */,
+				5DF573B62AF19F57001513E9 /* Frameworks */,
+				5DF573B72AF19F57001513E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quizker-mobile";
+			packageProductDependencies = (
+				5D3D0EBB2AF6EC22009B0C46 /* Alamofire */,
+			);
+			productName = "quizker-mobile";
+			productReference = 5DF573B92AF19F57001513E9 /* quizker-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DF573C82AF19F5A001513E9 /* quizker-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF573E02AF19F5A001513E9 /* Build configuration list for PBXNativeTarget "quizker-mobileTests" */;
+			buildPhases = (
+				5DF573C52AF19F5A001513E9 /* Sources */,
+				5DF573C62AF19F5A001513E9 /* Frameworks */,
+				5DF573C72AF19F5A001513E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF573CB2AF19F5A001513E9 /* PBXTargetDependency */,
+			);
+			name = "quizker-mobileTests";
+			productName = "quizker-mobileTests";
+			productReference = 5DF573C92AF19F5A001513E9 /* quizker-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DF573D22AF19F5A001513E9 /* quizker-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF573E32AF19F5A001513E9 /* Build configuration list for PBXNativeTarget "quizker-mobileUITests" */;
+			buildPhases = (
+				5DF573CF2AF19F5A001513E9 /* Sources */,
+				5DF573D02AF19F5A001513E9 /* Frameworks */,
+				5DF573D12AF19F5A001513E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF573D52AF19F5A001513E9 /* PBXTargetDependency */,
+			);
+			name = "quizker-mobileUITests";
+			productName = "quizker-mobileUITests";
+			productReference = 5DF573D32AF19F5A001513E9 /* quizker-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF573B12AF19F56001513E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5DF573B82AF19F57001513E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5DF573C82AF19F5A001513E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DF573B82AF19F57001513E9;
+					};
+					5DF573D22AF19F5A001513E9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DF573B82AF19F57001513E9;
+					};
+				};
+			};
+			buildConfigurationList = 5DF573B42AF19F56001513E9 /* Build configuration list for PBXProject "quizker-mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF573B02AF19F56001513E9;
+			packageReferences = (
+				5D3D0EBA2AF6EC22009B0C46 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 5DF573BA2AF19F57001513E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF573B82AF19F57001513E9 /* quizker-mobile */,
+				5DF573C82AF19F5A001513E9 /* quizker-mobileTests */,
+				5DF573D22AF19F5A001513E9 /* quizker-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF573B72AF19F57001513E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF573C42AF19F5A001513E9 /* Preview Assets.xcassets in Resources */,
+				5DF573C12AF19F5A001513E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF573C72AF19F5A001513E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF573D12AF19F5A001513E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF573B52AF19F57001513E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF573BF2AF19F57001513E9 /* ContentView.swift in Sources */,
+				5DF573BD2AF19F57001513E9 /* quizker_mobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF573C52AF19F5A001513E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF573CE2AF19F5A001513E9 /* quizker_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF573CF2AF19F5A001513E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF573DA2AF19F5A001513E9 /* quizker_mobileUITestsLaunchTests.swift in Sources */,
+				5DF573D82AF19F5A001513E9 /* quizker_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF573CB2AF19F5A001513E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF573B82AF19F57001513E9 /* quizker-mobile */;
+			targetProxy = 5DF573CA2AF19F5A001513E9 /* PBXContainerItemProxy */;
+		};
+		5DF573D52AF19F5A001513E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF573B82AF19F57001513E9 /* quizker-mobile */;
+			targetProxy = 5DF573D42AF19F5A001513E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DF573DB2AF19F5A001513E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DF573DC2AF19F5A001513E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF573DE2AF19F5A001513E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"quizker-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DRB557P9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quizker.quizker-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF573DF2AF19F5A001513E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"quizker-mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DRB557P9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quizker.quizker-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DF573E12AF19F5A001513E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quizker.quizker-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quizker-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/quizker-mobile";
+			};
+			name = Debug;
+		};
+		5DF573E22AF19F5A001513E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quizker.quizker-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quizker-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/quizker-mobile";
+			};
+			name = Release;
+		};
+		5DF573E42AF19F5A001513E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quizker.quizker-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quizker-mobile";
+			};
+			name = Debug;
+		};
+		5DF573E52AF19F5A001513E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "quizker.quizker-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quizker-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF573B42AF19F56001513E9 /* Build configuration list for PBXProject "quizker-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF573DB2AF19F5A001513E9 /* Debug */,
+				5DF573DC2AF19F5A001513E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF573DD2AF19F5A001513E9 /* Build configuration list for PBXNativeTarget "quizker-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF573DE2AF19F5A001513E9 /* Debug */,
+				5DF573DF2AF19F5A001513E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF573E02AF19F5A001513E9 /* Build configuration list for PBXNativeTarget "quizker-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF573E12AF19F5A001513E9 /* Debug */,
+				5DF573E22AF19F5A001513E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF573E32AF19F5A001513E9 /* Build configuration list for PBXNativeTarget "quizker-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF573E42AF19F5A001513E9 /* Debug */,
+				5DF573E52AF19F5A001513E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D3D0EBA2AF6EC22009B0C46 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D3D0EBB2AF6EC22009B0C46 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D3D0EBA2AF6EC22009B0C46 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5DF573B12AF19F56001513E9 /* Project object */;
+}
